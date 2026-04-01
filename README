@@ -1,0 +1,31 @@
+Finance Data Processing API
+
+Features:
+
+Authentication
+Role Based Access
+CRUD Transactions
+Filtering
+Pagination
+Dashboard Analytics
+
+Tech Stack:
+
+FastAPI
+SQLAlchemy
+SQLite
+
+Run:
+
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+Endpoints:
+
+POST /users
+POST /users/login
+POST /transactions
+GET /transactions
+PUT /transactions/{id}
+DELETE /transactions/{id}
+GET /dashboard/summary
